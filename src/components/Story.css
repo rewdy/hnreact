@@ -1,0 +1,55 @@
+.Story {
+    list-style:none;
+    margin:0 0 2rem 0;
+    padding:0;
+}
+
+.StoryTitle {
+    display:block;
+    font-size:1.4rem;
+    margin-bottom:0.5rem;
+}
+.StoryLink {
+    padding:5px;
+    margin:-5px;
+    color:#000;
+    text-decoration:none;
+}
+.StoryLink:hover,
+.StoryLink:focus {
+    background-color:#e121d3;
+    color:#fff;
+    font-style:italic;
+}
+.StoryLink:active {
+    background-color:#6ed9fb;
+    font-style:italic;
+}
+.StoryLink:visited {
+    color:#777;
+    background-color:#fff;
+    text-decoration:line-through;
+}
+
+.StoryMeta {
+    display:flex;
+}
+.StoryMeta > span,
+.StoryMeta > a {
+    padding:0.2rem 0.4rem;
+    margin-right:0.5rem;
+    background-color:#e6e6e6;
+    color:#666;
+}
+.StorySourceLink {
+    text-decoration: none;
+}
+.StorySourceLink:hover,
+.StorySourceLink:focus {
+    color:#000;
+    background-color:#e0dc3b;
+}
+.StorySourceLink:active {
+    color:#000;
+    background-color:#6ed9fb;
+}

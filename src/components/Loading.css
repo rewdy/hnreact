@@ -1,0 +1,21 @@
+.Loading {
+    background-color:#e121d3;
+    color:#fff;
+    padding:2px 5px;
+    text-align:center;
+    margin-bottom:1rem;
+    border-radius:2em;
+    animation: color-changer 1s linear infinite;
+}
+
+@keyframes color-changer {
+    0% {
+        background-color:#e121d3;
+    }
+    50% {
+        background-color:#9924f2;
+    }
+    100% {
+        background-color:#e121d3;
+    }
+}
