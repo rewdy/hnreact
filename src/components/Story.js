@@ -47,11 +47,12 @@ class Story extends React.Component {
             // const story = this.props.data;
             const storyId = this.props.storyId;
             const storyUri = `https://news.ycombinator.com/item?id=${storyId}`;
+            const storyLink = (story.url) ? story.url : storyUri;
 
             return (
                 <li className="Story" id={storyId}>
                     <div className="StoryTitle">
-                        <a className="StoryLink" href={story.url}>
+                        <a className="StoryLink" href={storyLink}>
                             {story.title}
                         </a>
                     </div>
