@@ -53,3 +53,18 @@
     color:#000;
     background-color:#6ed9fb;
 }
+
+@media (prefers-color-scheme: dark) {
+    .StoryLink {
+        color:#fff;
+    }
+    .StoryLink:hover,
+    .StoryLink:focus {
+        background-color:#ba17a4;
+    }
+    .StoryMeta > span,
+    .StoryMeta > a {
+        background-color:#000;
+        color:#999;
+    }
+}
