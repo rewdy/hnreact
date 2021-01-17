@@ -1,5 +1,5 @@
 .Loading {
-  background-color: #f00;
+  background-color: #e121d3;
   color: #fff;
   padding: 2px 5px;
   text-align: center;
@@ -10,54 +10,13 @@
   --delay-interval: 200ms;
 }
 
-/**
- * Merry Christmas!
-*/
-.Loading:nth-child(2n + 1) {
-  // red
-  background-color: #d9001a;
+.Loading:nth-child(odd) {
+  background-color: #e121d3;
 }
-.Loading:nth-child(2n + 2) {
-  // green
-  background-color: #006545;
+.Loading:nth-child(even) {
+  background-color: #9924f2;
   animation-delay: var(--delay-interval);
 }
-
-// .Loading:nth-child(7n + 1) {
-//   // red
-//   background-color: #f00;
-// }
-// .Loading:nth-child(7n + 2) {
-//   // orange
-//   background-color: #f60;
-//   animation-delay: var(--delay-interval);
-// }
-// .Loading:nth-child(7n + 3) {
-//   // yellow
-//   background-color: #e6d419;
-//   color: #000;
-//   animation-delay: calc(var(--delay-interval) * 2);
-// }
-// .Loading:nth-child(7n + 4) {
-//   // green
-//   background-color: green;
-//   animation-delay: calc(var(--delay-interval) * 3);
-// }
-// .Loading:nth-child(7n + 5) {
-//   // blue
-//   background-color: blue;
-//   animation-delay: calc(var(--delay-interval) * 4);
-// }
-// .Loading:nth-child(7n + 6) {
-//   // indigo
-//   background-color: indigo;
-//   animation-delay: calc(var(--delay-interval) * 5);
-// }
-// .Loading:nth-child(7n) {
-//   // violet
-//   background-color: hotpink;
-//   animation-delay: calc(var(--delay-interval) * 6);
-// }
 
 @keyframes breathe {
   0% {
@@ -70,15 +29,3 @@
     opacity: 1;
   }
 }
-
-/* @keyframes color-changer {
-    0% {
-        background-color:#e121d3;
-    }
-    50% {
-        background-color:#9924f2;
-    }
-    100% {
-        background-color:#e121d3;
-    }
-} */
