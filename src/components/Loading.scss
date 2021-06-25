@@ -1,5 +1,5 @@
 .Loading {
-  background-color: #e121d3;
+  background-color: var(--blue-dark);
   color: #fff;
   padding: 2px 5px;
   text-align: center;
@@ -10,13 +10,25 @@
   --delay-interval: 200ms;
 }
 
-.Loading:nth-child(odd) {
-  background-color: #e121d3;
-}
-.Loading:nth-child(even) {
-  background-color: #9924f2;
-  animation-delay: var(--delay-interval);
-}
+// .Loading {
+//   background-color: var(--blue-dark);
+//   color: #fff;
+//   padding: 2px 5px;
+//   text-align: center;
+//   margin-bottom: 1rem;
+//   border-radius: 2em;
+//   animation: breathe 1s linear infinite;
+
+//   --delay-interval: 200ms;
+// }
+
+// .Loading:nth-child(odd) {
+//   background-color: var(--blue-dark);
+// }
+// .Loading:nth-child(even) {
+//   background-color: var(--blue-light);
+//   animation-delay: var(--delay-interval);
+// }
 
 @keyframes breathe {
   0% {

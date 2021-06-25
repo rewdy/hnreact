@@ -1,0 +1,21 @@
+.App {
+  padding: 2em;
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0.75em;
+    background: var(--blue-dark);
+    background: linear-gradient(
+      90deg,
+      var(--blue-light) 0%,
+      var(--blue-dark) 100%
+    );
+  }
+}
