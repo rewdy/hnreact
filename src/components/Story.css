@@ -17,12 +17,12 @@
 }
 .StoryLink:hover,
 .StoryLink:focus {
-    background-color:#e121d3;
+    background-color:var(--blue-light);
     color:#fff;
     font-style:italic;
 }
 .StoryLink:active {
-    background-color:#6ed9fb;
+    background-color:var(--blue-dark);
     font-style:italic;
 }
 .StoryLink:visited {
@@ -60,7 +60,7 @@
     }
     .StoryLink:hover,
     .StoryLink:focus {
-        background-color:#ba17a4;
+        background-color:var(--blue-dark);
     }
     .StoryMeta > span,
     .StoryMeta > a {
