@@ -1,21 +1,30 @@
+:root,
+:root:not([data-theme="dark"]) {
+  --blue-light: #efc3c3;
+  --blue-dark: rgb(205, 80, 255);
+  --primary: #dd9290;
+  --font-family: "Karla", sans-serif;
+}
+
 .App {
-  padding: 2em;
-  max-width: 900px;
-  margin: 0 auto;
-  position: relative;
-  &:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 0.75em;
-    background: var(--blue-dark);
-    background: linear-gradient(
-      90deg,
-      var(--blue-light) 0%,
-      var(--blue-dark) 100%
-    );
-  }
+  margin-top: 2em;
+  // padding: 2em;
+  // max-width: 900px;
+  // margin: 0 auto;
+  // position: relative;
+  // &:before {
+  //   content: "";
+  //   display: block;
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   right: 0;
+  //   height: 0.75em;
+  //   background: var(--blue-dark);
+  //   background: linear-gradient(
+  //     90deg,
+  //     var(--blue-light) 0%,
+  //     var(--blue-dark) 100%
+  //   );
+  // }
 }

@@ -1,0 +1,26 @@
+@import "/node_modules/@picocss/pico/scss/variables";
+
+.AppHeader {
+  margin-bottom: 1rem;
+  padding-bottom: 1.5rem;
+  @media (min-width: map-get($breakpoints, "md")) {
+    display: flex;
+    > * {
+      flex-grow: 1;
+      &:last-child {
+        flex-grow: 0;
+      }
+    }
+  }
+}
+
+.SubTitle {
+  font-style: italic;
+}
+
+.MadeBy {
+  opacity: 0.6;
+  @media (min-width: map-get($breakpoints, "md")) {
+    padding: 0.5em 0;
+  }
+}

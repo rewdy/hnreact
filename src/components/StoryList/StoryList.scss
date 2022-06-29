@@ -1,0 +1,21 @@
+.StoryList {
+  margin: 0;
+  padding: 0;
+}
+.StoryList-Options {
+  text-align: right;
+  margin-bottom: 3em;
+}
+.StoryList-ToggleButton {
+  appearance: none;
+  border: 0 none;
+  background-color: transparent;
+  font-size: 1rem;
+  line-height: normal;
+  padding: 0;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+    color: var(--blue-dark);
+  }
+}

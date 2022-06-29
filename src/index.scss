@@ -1,0 +1,64 @@
+/*!
+ * Pico.css v1.4.4 (https://picocss.com)
+ * Copyright 2019-2021 - Licensed under MIT
+ *
+ * Slim version example
+ * You can export only the modules you need
+ */
+
+// Config
+// --------------------
+
+// Enable responsive spacings for <header>, <main>, <footer>, <section>, <article>
+$enable-responsive-spacings: false;
+
+// Enable transitions
+$enable-transitions: false;
+
+// Enable overriding with !important
+$enable-important: false;
+
+// Pico Lib
+// --------------------
+
+/*!
+ * Pico.css v1.4.1 (https://picocss.com)
+ * Copyright 2019-2021 - Licensed under MIT
+ */
+
+// Config
+@import "/node_modules/@picocss/pico/scss/variables";
+
+// Theming
+@import "/node_modules/@picocss/pico/scss/themes/default";
+
+// Layout
+@import "/node_modules/@picocss/pico/scss/layout/document"; // html
+@import "/node_modules/@picocss/pico/scss/layout/sectioning"; // body, header, main, footer
+@import "/node_modules/@picocss/pico/scss/layout/container"; // .container, .container-fluid
+@import "/node_modules/@picocss/pico/scss/layout/section"; // section
+@import "/node_modules/@picocss/pico/scss/layout/grid"; // .grid
+// @import "/node_modules/@picocss/pico/scss/layout/scroller"; // figure
+
+// Content
+@import "/node_modules/@picocss/pico/scss/content/typography"; // a, headings, p, ul, blockquote, ...
+// @import "/node_modules/@picocss/pico/scss/content/embedded"; // audio, canvas, iframe, img, svg, video
+@import "/node_modules/@picocss/pico/scss/content/button"; // button, a[role=button], type=button, type=submit ...
+// @import "/node_modules/@picocss/pico/scss/content/form"; // input, select, textarea, label, fieldset, legend
+// @import "/node_modules/@picocss/pico/scss/content/form-checkbox-radio"; // type=checkbox, type=radio, role=switch
+// @import "/node_modules/@picocss/pico/scss/content/form-alt-input-types"; // type=color, type=date, type=file, type=search, ...
+// @import "/node_modules/@picocss/pico/scss/content/table"; // table, tr, td, ...
+@import "/node_modules/@picocss/pico/scss/content/code"; // pre, code, ...
+@import "/node_modules/@picocss/pico/scss/content/miscs"; // hr, template, [hidden], dialog, canvas
+
+// Components
+// @import "/node_modules/@picocss/pico/scss/components/accordion"; // details, summary
+// @import "/node_modules/@picocss/pico/scss/components/card"; // article
+// @import "/node_modules/@picocss/pico/scss/components/nav"; // nav
+// @import "/node_modules/@picocss/pico/scss/components/progress"; // progress
+
+// Utilities
+@import "/node_modules/@picocss/pico/scss/utilities/loading"; // aria-busy=true
+@import "/node_modules/@picocss/pico/scss/utilities/tooltip"; // data-tooltip
+@import "/node_modules/@picocss/pico/scss/utilities/accessibility"; // -ms-touch-action, aria-*
+@import "/node_modules/@picocss/pico/scss/utilities/reduce-motion"; // prefers-reduced-motion

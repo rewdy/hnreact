@@ -1,0 +1,23 @@
+.Loading {
+  // background-color: var(--blue-dark);
+  // color: #fff;
+  padding: 2px 5px;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-radius: 2em;
+  animation: breathe 1s linear infinite;
+
+  --delay-interval: 200ms;
+}
+
+@keyframes breathe {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
